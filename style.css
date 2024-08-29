@@ -134,7 +134,7 @@ button {
     font-size: 9px;
 }
 
-/* quote section */
+/* quote styling */
 .quoteDiv {
     padding: 6vh 18vh;
 }
@@ -147,4 +147,45 @@ button {
     font-size: 12px;
     text-align: right;
     font-weight: 900;
+}
+
+/* call to action styling */
+
+.whitePadding {
+    padding-top: 5.3vh;
+    padding-bottom: 5.3vh;
+    color: #f9faf8;
+}
+
+.blueInnerBox {
+    background-color: #3882F6;
+    padding: 2.5vh 6vh;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.blueInnerBox h4 {
+    font-size: 11px;
+}
+
+.blueInnerBox p {
+    font-size: 9px;
+    font-weight: 100;
+}
+
+.blueInnerBox button {
+    border: 1px solid #f9faf8;
+}
+
+/* footer styling */
+
+.footer {
+    font-size: 10px;
+    font-weight: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f9faf8;
+    height: 5.1vh;
 }
