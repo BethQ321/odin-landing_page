@@ -39,6 +39,7 @@ h1 {
     background-color: white;
 }
 
+/* header styling */
 .headerDivTop {
     padding-top: 1.2vh;
     display: flex;
@@ -96,4 +97,39 @@ button {
 
 .headerLeft button {
     border: none;
+}
+
+/* blue box styling */
+.random {
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+.random h4 {
+    font-weight: 900;
+}
+
+.boxContainer {
+    display: flex;
+    justify-content: center;
+    gap: 18px;
+    padding-bottom: 5vh;
+}
+
+.blueBox {
+    width: 9vh;
+}
+
+.blueBoxOutline {
+    border-radius: 8px;
+    border: 2px solid #3882F6;
+    width: 100%;
+    height: 9vh;
+    margin: 3px;
+}
+
+.blueBoxText p {
+    text-align: center;
+    font-size: 9px;
 }
