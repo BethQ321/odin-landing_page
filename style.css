@@ -133,3 +133,18 @@ button {
     text-align: center;
     font-size: 9px;
 }
+
+/* quote section */
+.quoteDiv {
+    padding: 6vh 18vh;
+}
+
+.quoteDiv p {
+    font-style: italic;
+}
+
+.quoteDiv h4 {
+    font-size: 12px;
+    text-align: right;
+    font-weight: 900;
+}
